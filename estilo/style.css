@@ -39,5 +39,25 @@ section#telefone{
     left: 22px;
     width: 265px;
     height: 470px;
+}
+section#rede-social {
+    text-align: right;
+    width: fit-content;
+    padding: 10px;
+}
+section#rede-social img{
+    width: 50px;
+    margin-bottom: 15px;
+    display: block;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.63);
+    transition: transform 0.2s ease-in-out;
+}
+section#rede-social img:hover{
+    border: 2px solid white;
+    transform: translate(3px, 3px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.63);
     
+
 }
